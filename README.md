@@ -12,7 +12,7 @@ A brief account of column modifications and creations.
 7) 'sorf' is the success or failure indicator, which is 1 if alps_exit is equal to 0, else is 0.
 8) Certain rows had missing values, these were very few in number and was dropped from the tables.
 9) 'gpu_usg' column refers to the ratio of time spent on gpus to the job time.
-10) 'app_cpu_usg' column refers to the ratio of total time spent on cpu* to job time. (*A base of clock of 2.2 GHz was used, though a max boost of 3.1 GHz)
+10) 'app_cpu_usg' column refers to the ratio of total time spent on cpu* to job time. (*A base of clock of 2.2 GHz was used, though a max boost of 3.1 GHz was possible)
 11) 'file_system' column refers to the file system used and can take the values 'atlas', 'atlas1', 'atlas2', 'atlas1_thin' and 'NA'.This is obtained from the 
     'command' column.
 12) 'Area' column refers to the project area, e.g, nanoscience,etc and 'Science' column refers to the Science domain, e.g, biology, chemistry, etc, obtained by merging
